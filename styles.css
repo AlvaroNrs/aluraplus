@@ -71,6 +71,9 @@ body {
     margin: 0 6em;
 }
 
+.container__principal__imagem__extra {
+    display: none;
+}
 
 .secundario__imagem {
     width: 80%;
@@ -159,4 +162,61 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
+}
+
+@media (max-width: 1200px) {
+
+    main {
+        width: 100%;
+    }
+
+    .container {
+        display: inline;
+        grid-template-columns: 0%;
+    }
+
+
+    .container__descricao {
+        align-items: center;
+    }
+ 
+    .secundario {
+        text-align: center;
+        align-items: center;
+        margin: 0em;
+    }
+
+    .secundario__botao {
+        display: block;
+        margin: 2em 10em 4em 10em;
+    }
+
+    .secundario__imagem {
+        margin-top: 2em;
+        margin-left: 6em;
+    }
+
+    .container__principal__imagem__extra {
+        display:inline-block;
+        width: 80%;
+        align-self: center;
+    }
+
+    .descricao__titulo {
+        text-align: center;
+    }
+
+    .descricao__texto {
+        text-align: center;
+    }
+
+    .dispositivos__lista {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        list-style-type: none;
+        margin-left: 5em;
+    }
+
 }
