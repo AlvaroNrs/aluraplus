@@ -172,7 +172,6 @@ body {
 
     .container {
         display: inline;
-        grid-template-columns: 0%;
     }
 
 
@@ -197,9 +196,9 @@ body {
     }
 
     .container__principal__imagem__extra {
-        display:inline-block;
-        width: 80%;
-        align-self: center;
+        
+        display:block;
+        width: 100%;
     }
 
     .descricao__titulo {
