@@ -165,7 +165,7 @@ body {
     color: var(--cor-de-fundo);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 
     main {
         width: 100%;
@@ -177,6 +177,9 @@ body {
         justify-content: center;
     }
 
+    .container__imagem {
+        margin: 0em 0em 0em 0em;
+    }
 
     .container__descricao {
         align-items: center;
@@ -190,7 +193,7 @@ body {
 
     .secundario__botao {
         display: block;
-        margin: 2em 10em 4em 10em;
+        margin: 2em 20% 4em 20%;
     }
 
     .secundario__imagem {
@@ -223,6 +226,10 @@ body {
         align-items: center;
         justify-content: center;    
         list-style-type: none;
+    }
+
+    .rodape__lista{
+        display: block;
     }
 
 }
