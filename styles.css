@@ -220,6 +220,7 @@ body {
 
     .dispositivos {
         justify-content: center;
+        margin-top: 5em;
     }
 
     .dispositivos__lista {
@@ -231,7 +232,15 @@ body {
     }
 
     .rodape__lista{
-        display: block;
+        display: grid;
+    }
+
+    .rodape__logo {
+        align-self: center;
+    }
+
+    .lista__link {
+        width: 100%;
     }
 
 }
