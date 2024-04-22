@@ -178,17 +178,19 @@ body {
     }
 
     .container__imagem {
-        margin: 0em 0em 0em 0em;
+        width: 80%;
     }
 
     .container__descricao {
         align-items: center;
+        margin-top: 10%;
+        padding: 0 0 0 0;
     }
  
     .secundario {
         text-align: center;
         align-items: center;
-        margin: 0em;
+        margin-top: 8em;
     }
 
     .secundario__botao {
